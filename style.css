@@ -1,0 +1,82 @@
+/* Universal styling */
+* {
+  background-color: rgb(255, 255, 255);
+  
+}
+h1, h2, h3 {
+  color: rgb(0, 0, 0);
+}
+
+/* ID selector for name */
+#name {
+  color: rgb(0, 0, 0);
+  background-color:  rgb(255, 255, 255);;
+  width: 740px;
+
+}
+#email {
+    background-color: rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);
+    width: 740px;
+}
+
+
+#objective{
+    background-color:rgb(223, 12, 12);
+    width: 1500px;
+
+
+}
+#Education{
+    background-color: rgb(223, 12, 12);
+    width: 1500px;
+}
+#Technical{
+    background-color: rgb(223, 12, 12);
+    width: 1500px;
+}
+#Project{
+    background-color: rgb(223, 12, 12);
+    width: 1500px;
+}
+#Certification{
+    background-color:  rgb(223, 12, 12);
+    width: 1500px;
+}
+#Strengths{
+    background-color:  rgb(223, 12, 12);
+    width: 1500px;
+}
+#Language {
+    background-color: rgb(223, 12, 12);
+    width: 1500px;
+}
+
+
+.name-font {
+  font-family: 'Fjalla One', sans-serif;
+}
+.heading-font,.Project-font,.education-font{
+    font-family: 'Great Vibes', cursive;
+}
+.objective-font,.Technicl-font{
+    font-family: 'Lobster Two', cursive;
+}
+.certification-font {
+  font-family: 'Manufacturing Consent', cursive;
+}
+.strengths-font,.language-font {
+  font-family: 'Reenie Beanie', cursive;
+}
+.matter-box {
+  color: rgb(168, 12, 235);
+  background-color: #000000;  /* Light background (e.g., floral white) */
+  padding: 10px;
+}
+.profile-pic{
+  border-radius: 50%;
+  width: 100px;       /* Controls size */
+  height: 100px;      /* Keeps it perfectly round */
+  object-fit: cover;  /* Ensures the image fills the circle neatly */
+  border: 2px solid #444; /* Optional: adds border */
+}
